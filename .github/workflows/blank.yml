@@ -1,0 +1,770 @@
+name: CI
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Run a one-line script
+      run: echo Hello, world!
+    - name: Run a multi-line script
+      run: |
+        echo Add other actions to build,
+        echo test, and deploy your project.
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8"/>
+<meta name=3D"format-detection" content=3D"telephone=3Dno" />=20
+<meta name=3D"viewport" content=3D"width=3Ddevice-width; initial-scale=3D1.=
+0; maximum-scale=3D1.0; user-scalable=3Dno;" />
+<meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3D9; IE=3D8; IE=3D7; IE=
+=3DEDGE" />
+
+
+<title>Join us on myalcon Store</title>
+<!-- email subject line // Your myalcon Store account is ready: Activate no=
+w! -->
+
+    <style type=3D"text/css">
+    #outlook a {
+        padding: 0;
+    }
+   =20
+    .ReadMsgBody {
+        width: 100%;
+    }
+   =20
+    .ExternalClass {
+        width: 100%;
+    }
+   =20
+    .ExternalClass,
+    .ExternalClass p,
+    .ExternalClass span,
+    .ExternalClass font,
+    .ExternalClass td,
+    .ExternalClass div {
+        line-height: 100%;
+    }
+   =20
+    body,
+    table,
+    td,
+    p,
+    a,
+    li,
+    blockquote {
+        -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+    }
+   =20
+    table,
+    td {
+        mso-table-lspace: 0pt;
+        mso-table-rspace: 0pt;
+    }
+   =20
+    img {
+        -ms-interpolation-mode: bicubic;
+    }
+   =20
+    body {
+        margin: 0;
+        padding: 0;
+    }
+   =20
+    img {
+        border: 0;
+        height: auto;
+        line-height: 100%;
+        outline: none;
+        text-decoration: none;
+    }
+   =20
+    table {
+        border-collapse: collapse !important;
+    }
+   =20
+    body,
+    #bodyTable,
+    #bodyCell {
+        height: 100% !important;
+        margin: 0;
+        padding: 0;
+        width: 100% !important;
+    }
+   =20
+    #bodyCell {
+        padding: 20px;
+    }
+   =20
+    #templateContainer {
+        width: 600px;
+    }
+   =20
+    body,
+    #bodyTable {
+        background-color: #DEE0E2;
+    }
+   =20
+    #bodyCell {
+        border-top: 0px;
+    }
+   =20
+    #templateContainer {
+        border: 1px solid #BBBBBB;
+    }
+   =20
+    h1 {
+        color: #202020 !important;
+        display: block;
+        font-family: Helvetica;
+        font-size: 26px;
+        font-style: normal;
+        font-weight: bold;
+        line-height: 100%;
+        letter-spacing: normal;
+        margin-top: 0;
+        margin-right: 0;
+        margin-bottom: 10px;
+        margin-left: 0;
+        text-align: left;
+    }
+=09   =20
+    h2 {
+        color: #404040 !important;
+        display: block;
+        font-family: Helvetica;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: bold;
+        line-height: 100%;
+        letter-spacing: normal;
+        margin-top: 0;
+        margin-right: 0;
+        margin-bottom: 10px;
+        margin-left: 0;
+        text-align: left;
+    }
+   =20
+    h3 {
+    color: #000000 !important;
+    display: block;
+    font-family: Helvetica;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 100%;
+    letter-spacing: normal;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 10px;
+    margin-left: 0;
+    text-align: left;
+    }
+   =20
+    h3.activate {
+        font-size: 20px !important;
+        line-height: 125% !important;
+        color: #40ae49 !important;
+    }   =20
+    h3.date {
+        font-size: 14px !important;
+        line-height: 100% !important;
+        color: #003595 !important;
+    }
+   =20
+    h4 {
+        color: #808080 !important;
+        display: block;
+        font-family: Helvetica;
+        font-size: 14px;
+        font-style: italic;
+        font-weight: normal;
+        line-height: 100%;
+        letter-spacing: normal;
+        margin-top: 0;
+        margin-right: 0;
+        margin-bottom: 10px;
+        margin-left: 0;
+        text-align: left;
+    }
+=09=09=09ul {
+=09=09=09=09font-family:Helvetica !important;
+=09=09=09=09color: #505050 !important;
+=09=09=09}
+=09=09=09ul li {
+=09=09=09=09font-family:Helvetica !important;
+=09=09=09=09color: #505050 !important;
+=09=09=09=09line-height: 125%!important;
+=09=09=09=09list-style-type: disc;
+=09=09=09}
+=09=09=09ul p {
+=09=09=09=09color: #505050 !important;
+=09=09=09}
+   =20
+    #templatePreheader {
+        background-color: #fff;
+    }
+   =20
+    .preheaderContent {
+        color: #808080;
+        font-family: Helvetica;
+        font-size: 10px;
+        line-height: 125%;
+        text-align: left;
+    }
+   =20
+    .preheaderContent a:link,
+    .preheaderContent a:visited,
+    .preheaderContent a .yshortcuts {
+        color: #606060;
+        font-weight: normal;
+        text-decoration: underline;
+    }
+   =20
+    #templateHeader {
+        background-color: #F2F2F2;
+        border-top: 1px solid #FFFFFF;
+        border-bottom: 1px solid #CCCCCC;
+    }
+   =20
+    .headerContent {
+        color: #505050;
+        font-family: Helvetica;
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 100%;
+        padding-top: 0;
+        padding-right: 0;
+        padding-bottom: 0;
+        padding-left: 0;
+        text-align: left;
+        vertical-align: middle;
+    }
+   =20
+    .leftColumnContent a:link,
+    .leftColumnContent a:visited,
+    .leftColumnContent a .yshortcuts,   =20
+=09.rightColumnContent a:link,
+    .rightColumnContent a:visited,
+    .rightColumnContent a .yshortcuts,
+=09.headerContent a:link,
+    .headerContent a:visited,
+    .headerContent a .yshortcuts,
+=09.bodyContent a:link,
+    .bodyContent a:visited,
+    .bodyContent a .yshortcuts,
+=09.footerContent a:link,
+    .footerContent a:visited,
+    .footerContent a .yshortcuts,
+    .footerContent a spa {
+        color: #EB4102;
+        font-weight: normal;
+        text-decoration: underline;
+    }  =20
+=09=20
+    #headerImage {
+        height: auto;
+        max-width: 600px;
+    }
+   =20
+    #templateBody {
+        background-color: #FFFFFF;
+        border-top: 1px solid #FFFFFF;
+        border-bottom: 1px solid #CCCCCC;
+    }
+   =20
+    .bodyContent {
+        color: #000;
+        font-family: Helvetica;
+        font-size: 12px;
+        line-height: 150%;
+        padding-top: 0px;
+        padding-right: 60px;
+        padding-bottom: 0px;
+        padding-left: 60px;
+        text-align: left;
+    }
+   =20
+
+    .bodyContent img {
+        display: inline;
+        height: auto;
+        max-width: 560px;
+    }
+   =20
+    .templateColumnContainer {
+        width: 260px;
+    }
+   =20
+    #templateColumns {
+        background-color: #FFFFFF;
+        border-top: 1px solid #FFFFFF;
+        border-bottom: 1px solid #CCCCCC;
+    }
+   =20
+    .leftColumnContent {
+        color: #000;
+        font-family: Helvetica;
+        font-size: 14px;
+        line-height: 150%;
+        padding-top: 0;
+        padding-right: 10px;
+        padding-bottom: 0px;
+        text-align: left;
+    }
+   =20
+    .rightColumnContent {
+        color: #505050;
+        font-family: Helvetica;
+        font-size: 14px;
+        line-height: 150%;
+        padding-top: 0;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        text-align: left;
+    }
+     =20
+    .leftColumnContent img,
+    .rightColumnContent img {
+        display: inline;
+        height: auto;
+        max-width: 260px;
+    }
+=09 =20
+    #templateFooter {
+        background-color: #FFFFFF;
+        border-top: 1px solid #FFFFFF;
+    }
+   =20
+    .footerContent {
+        color: #000;
+        font-family: Helvetica;
+        font-size: 10px;
+        line-height: 150%;
+        padding-top: 20px;
+        padding-right: 40px;
+        padding-bottom: 20px;
+        padding-left: 40px;
+        text-align: left;
+    }
+   =20
+
+   =20
+    @media only screen and (max-width: 480px) {
+        body,
+        table,
+        td,
+        p,
+        a,
+        li,
+        blockquote {
+            -webkit-text-size-adjust: none !important;
+        }
+        body {
+            width: 100% !important;
+            min-width: 100% !important;
+        }
+        #bodyCell {
+            padding: 10px !important;
+        }
+        #templateContainer {
+            max-width: 600px !important;
+            width: 100% !important;
+        }
+        h1 {
+    font-size: 16px !important;
+    line-height: 100% !important;
+    color: #000000;
+        }
+        h2 {
+    font-size: 16px !important;
+    line-height: 100% !important;
+    color: #000000;
+        }
+        h3, h3.date  {
+            font-size: 20px !important;
+            line-height: 100% !important;
+        }
+        h4 {
+    font-size: 16px !important;
+    line-height: 100% !important;
+    color: #000000;
+        }
+=09=09ul li {
+=09=09=09margin-left:20px !important;
+=09=09}
+        #templatePreheader {
+            display: none !important;
+        }
+        #headerImage {
+            height: auto !important;
+            max-width: 480px !important;
+            width: 100% !important;
+        }
+=09=09#templateHeader {
+           font-size: 16px !important;
+=09=09   max-width: 480px !important;
+           line-height: 125% !important;
+        }
+        .headerContent {
+           font-size: 16px !important;
+=09=09   max-width: 480px !important;
+           line-height: 125% !important;
+        }
+        .bodyContent {
+            font-size: 16px !important;
+            line-height: 125% !important;
+        }
+        .templateColumnContainer {
+            display: block !important;
+            width: 100% !important;
+        }
+        .columnImage {
+            height: auto !important;
+            max-width: 480px !important;
+            width: auto !important;
+        }
+        .leftColumnContent {
+            font-size: 16px !important;
+            line-height: 125% !important;
+=09=09=09padding-right: 10px!important;
+            padding-left: 10px!important;
+        }
+        .rightColumnContent {
+            font-size: 16px !important;
+            line-height: 125% !important;
+=09=09=09padding-right: 10px!important;
+            padding-left: 10px!important;
+        }=09=09
+        .footerContent {
+            font-size: 14px !important;
+            line-height: 115% !important;
+        }
+        .footerContent a {
+            display: block !important;
+        }
+=09=09.iconImage {
+=09=09    display: none !important;
+=09    }
+    }
+    h3.date1 {        font-size: 14px !important;
+        line-height: 100% !important;
+        color: #003595 !important;
+}
+h3.date1 {            font-size: 16px !important;
+            line-height: 100% !important;
+}
+    </style>
+   =20
+   =20
+</head>
+
+
+<body><!--[if mso]><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+align=3D"left" style=3D"mso-table-lspace:0pt;  mso-table-rspace:0pt; border=
+-collapse: collapse; width: 100%"><tr><td style=3D"width: 100%;"><![endif]-=
+-><div style=3D"float: left; width: 100%" class=3D"sapMktBlock"><table widt=
+h=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+<tbody>
+<tr>
+<td align=3D"center"><!-- Main Container -->
+<table width=3D"640" border=3D"0" align=3D"center" cellpadding=3D"0" cellsp=
+acing=3D"0" class=3D"width414">
+<tbody>
+<tr>
+<td align=3D"center" width=3D"640" valign=3D"top" class=3D"width414">
+<table width=3D"640" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" class=
+=3D"width414">
+<tbody>
+<tr>
+<td bgcolor=3D"#666666" width=3D"1" class=3D"hide"></td>
+<td align=3D"center" bgcolor=3D"#ffffff" width=3D"638" valign=3D"top" class=
+=3D"width414"><!--PREHEADER CONTAINER--> <!-- margin -->
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+<tbody>
+<tr>
+<td height=3D"10" style=3D"line-height: 10px; font-size: 0px;"></td>
+</tr>
+</tbody>
+</table>
+<!--/margin --> <!-- PREHEADER TEXT -->
+<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" clas=
+s=3D"width414" bgcolor=3D"#E0E0E0">
+<tbody>
+<tr><!--<td align=3D"left" width=3D"508" valign=3D"top" style=3D"padding-le=
+ft: 30px;">
+<div style=3D"font-family: Arial, Helvetica, sans-serif; color: #333333; fo=
+nt-size: 11px; line-height: 13px; font-weight: normal;"><strong>From:</stro=
+ng> Myalconstore.com <br /><strong>Date:</strong> %%Variable%%<br /><strong=
+>To:</strong> %%Variable%%<br /><strong>Subject:</strong> Ordering made eas=
+ier with the new myalcon Store</div>
+</td> --></tr>
+</tbody>
+</table>
+<!-- /PREHEADER TEXT  --> <!-- margin -->
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+<tbody>
+<tr>
+<td height=3D"10" style=3D"line-height: 10px; font-size: 0px;"><img src=3D"=
+https://embed.widencdn.net/img/alcon/yym7g4sip8/640px/A-New-Ordering-System=
+-Header.jpeg" alt=3D"" width=3D"650" height=3D"199"></td>
+</tr>
+</tbody>
+</table>
+<!--/margin --> <!--/PREHEADER CONTAINER --> <!-- BANNER CONTAINER -->
+<table width=3D"638" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" class=
+=3D"width414" bgcolor=3D"#fff">
+<tbody>
+<tr>
+<td align=3D"center"></td>
+</tr>
+</tbody>
+</table>
+<!-- /BANNER CONTAINER --> <!--BODY-->
+<table width=3D"600
+=09=09=09=09" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td align=3D"center" width=3D"100%" valign=3D"top"><!-- BEGIN COLUMNS // --=
+>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
+<tbody>
+<tr><!-- BEGIN LEFT COLUMN // -->
+<td align=3D"center" width=3D"290" valign=3D"top" style=3D"padding-right: 1=
+0px;">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
+<tbody>
+<tr>
+<td valign=3D"top" class=3D"leftColumnContent"><img class=3D"columnImage" s=
+rc=3D"https://embed.widencdn.net/img/alcon/uandcaqqtv/160px/market-logo-mya=
+lconstore-us_160x40.png" alt=3D"myalcon Store" width=3D"150" style=3D"paddi=
+ng-top: 20px;"></td>
+</tr>
+<tr>
+<td valign=3D"top" style=3D"padding-top: 15px;" class=3D"leftColumnContent"=
+><!--Date:-->
+<p></p>
+<p><strong>Date: 02/04/2020</strong></p>
+<p></p>
+<h3 class=3D"date">Dear Alcon Customer,</h3>
+<div>As one of our valued customers, you&rsquo;ll be among the first to tra=
+nsition to the new and improved <strong>myalcon Store</strong>!</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<!-- END LEFT COLUMN // --> <!-- BEGIN RIGHT COLUMN // -->
+<td align=3D"center" width=3D"290" valign=3D"top" style=3D"padding: 25px 0 =
+0 0;">
+<table width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+<tbody>
+<tr>
+<td valign=3D"top" style=3D"background-color: #f5f2f2;" class=3D"rightColum=
+nContent">
+<h3 class=3D"activate" style=3D"margin: 20px 0 0 20px;">Help Us Get You The=
+re</h3>
+<div style=3D"margin: 0 20px 0px 20px;">
+<p><strong>Please review and update your profile (and, if applicable, your =
+sub-user list) in the current ordering system.</strong> This will allow the=
+ transition to proceed smoothly.</p>
+<p>You'll be receiving additional information over the next few weeks.</p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<!-- END RIGHT COLUMN // --></tr>
+</tbody>
+</table>
+<!-- // END COLUMNS --></td>
+</tr>
+</tbody>
+</table>
+<!-- /Hero 1 --> <!-- margin -->
+<table width=3D"600" border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+<tbody>
+<tr>
+<td valign=3D"top" style=3D"padding-top: 15px;" colspan=3D"4" class=3D"left=
+ColumnContent"><!--Improved Experience Coming -->
+<div style=3D"font-family: Arial, Helvetica, sans-serif; color: #000; font-=
+size: 14px; line-height: 150%; font-weight: normal;">
+<h3 class=3D"date">Improved Experience Coming</h3>
+<div>This all-new digital system is designed to help you order contact lens=
+es and related products, manage patient orders for your practice, and do it=
+ faster and easier. <br><br></div>
+</div>
+<!--/Improved Experience Coming --></td>
+</tr>
+<!-- BULLETS -->
+<tr><!-- PRODUCT ICON -->
+<td align=3D"left" width=3D"54" valign=3D"top" style=3D"text-align: center;=
+ padding-top: 5px;"><img class=3D"iconImage" src=3D"https://embed.widencdn.=
+net/img/alcon/imzgetshba/640px/MyAlconStore_A-New-Ordering-System_05.jpeg" =
+alt=3D"cart" style=3D"height: 44px; width: 54px;">&nbsp;&nbsp;&nbsp;</td>
+<!-- /PRODUCT ICON -->
+<td width=3D"246" valign=3D"top" class=3D"leftColumnContent">
+<ul>
+<li><span style=3D"color: 000000;"><strong>Browse products</strong></span><=
+br><br></li>
+<li><span style=3D"color: 000000;"><strong>Place orders with address<br>ver=
+ifications for direct-to-patient orders</strong></span></li>
+</ul>
+</td>
+<!-- SEARCH ICON -->
+<td align=3D"left" width=3D"57" valign=3D"top" style=3D"text-align: center;=
+ padding-top: 5px;"><img class=3D"iconImage" src=3D"https://embed.widencdn.=
+net/img/alcon/pxfb9yckat/640px/Search-icon.jpeg" alt=3D"cart" style=3D"heig=
+ht: 50px; width: 55px;">&nbsp;&nbsp;&nbsp;</td>
+<!-- /SEARCH ICON -->
+<td width=3D"243" valign=3D"top" class=3D"leftColumnContent">
+<ul>
+<li><span style=3D"color: 000000;"><strong>Improved tracking of <br>your sh=
+ipments</strong></span><br><br></li>
+<li><span style=3D"color: 000000;"><strong>View order status history, invoi=
+ces, and statements</strong></span></li>
+</ul>
+</td>
+</tr>
+<!-- /BULLETS -->
+<tr>
+<td valign=3D"top" style=3D"padding-top: 15px; padding-bottom: 5px;" colspa=
+n=3D"4" class=3D"leftColumnContent">
+<h3 class=3D"date">Have questions?</h3>
+<div>
+<p><strong>Give us a call.</strong> <br>Customer Service: 1-800-468-2422<br=
+>
+<strong>OR</strong><br>
+Email us at <a style=3D"color: #003595; font-weight: normal; text-decoratio=
+n: underline;" href=3D"mailto:myalcon.us@alcon.com">myalcon.us@alcon.com</a=
+>
+</p><div style=3D"font-family: Arial, Helvetica, sans-serif; color: #ff0000=
+; font-size: 11px; line-height: 14px; font-weight: normal;">Please do not r=
+eply to this message. It was sent from a notification-only address.</div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<!--/margin --> <!-- Secondary-->
+<table width=3D"580" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" class=
+=3D"width414">
+<tbody>
+<tr></tr>
+</tbody>
+</table>
+<!-- /Secondary--> <!--RULE-->
+<table width=3D"638" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" class=
+=3D"width414">
+<tbody>
+<tr>
+<td bgcolor=3D"#003595" height=3D"4" style=3D"line-height: 1px; font-size: =
+0px;"></td>
+</tr>
+</tbody>
+</table>
+<!--/RULE--> <!--FOOTER-->
+<table width=3D"638" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" class=
+=3D"width414" bgcolor=3D"#fff">
+<tbody>
+<tr>
+<td align=3D"center" valign=3D"top" style=3D"font-family: Arial, Helvetica,=
+ sans-serif; color: #333333; font-size: 11px; line-height: 14px; font-weigh=
+t: normal;"><!--/margin --> <!-- margin -->
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+<tbody>
+<tr>
+<td height=3D"1" style=3D"line-height: 1px; font-size: 0px;"></td>
+</tr>
+</tbody>
+</table>
+<!--/margin -->
+<table width=3D"600" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" class=
+=3D"width414" bgcolor=3D"#fff">
+<tbody>
+<tr>
+<td align=3D"right" width=3D"293" valign=3D"middle" class=3D"wrap height50 =
+centercenter toppad10">
+<table width=3D"220" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" class=
+=3D"centercenter">
+<tbody>
+<tr></tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table width=3D"600" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" bgcol=
+or=3D"#fff">
+<tbody>
+<tr>
+<td align=3D"left" valign=3D"middle" class=3D"center"><!-- logo -->
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"margin: 20=
+px 0px 20px 0px;">
+<tbody>
+<tr>
+<td><img src=3D"https://embed.widencdn.net/img/alcon/eqn3nyugdy/640px/Alcon=
+_RGB_Tag.jpeg" alt=3D"" style=3D"height: 50px; width: 108px;"></td>
+</tr>
+</tbody>
+</table>
+<!-- /logo --> <!--copyright -->
+<div style=3D"font-family: Arial, Helvetica, sans-serif; color: #333333; fo=
+nt-size: 11px; line-height: 14px; font-weight: normal;">&copy;2020 Alcon In=
+c. All rights reserved. 6201 South Freeway, Fort Worth, TX 76134-2001, Unit=
+ed States</div>
+<!--/copyright --> <!-- links -->
+<div style=3D"font-family: Arial, Helvetica, sans-serif; color: #333333; fo=
+nt-size: 12px; line-height: 24px; font-weight: normal; margin-top: 10px;"><=
+a rel=3D"noopener noreferrer" href=3D"https://www.alcon.com?sap-outbound-id=
+=3D54B7D7297924B30AFDD9D3C10AA49C5BBF127510&utm_source=3DSAPHybris&utm_medi=
+um=3Demail&utm_campaign=3DSEND_TEST&utm_term=3DVC%20Awareness%20Campaign-US=
+___About%20Alcon&utm_content=3DEN" target=3D"_blank" style=3D"color: #00359=
+5; font-weight: normal; text-decoration: underline;">About Alcon</a> &nbsp;=
+|&nbsp; <a rel=3D"noopener noreferrer" href=3D"https://www.alcon.com/contac=
+t-us?sap-outbound-id=3D54B7D7297924B30AFDD9D3C10AA49C5BBF127510&utm_source=
+=3DSAPHybris&utm_medium=3Demail&utm_campaign=3DSEND_TEST&utm_term=3DVC%20Aw=
+areness%20Campaign-US___Contact%20Us&utm_content=3DEN" target=3D"_blank" st=
+yle=3D"color: #003595; font-weight: normal; text-decoration: underline;">Co=
+ntact Us</a>&nbsp;|&nbsp; <a rel=3D"noopener noreferrer" href=3D"https://ww=
+w.alcon.com/privacy-policy" target=3D"_blank" style=3D"color: #003595; font=
+-weight: normal; text-decoration: underline;">Privacy Policy</a><span class=
+=3D"hide"> </span></div>
+<!-- /links --></td>
+</tr>
+</tbody>
+</table>
+<!-- margin -->
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+<tbody>
+<tr>
+<td height=3D"22" class=3D"height15">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+<!--/margin --></td>
+</tr>
+</tbody>
+</table>
+<!--/FOOTER--></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table></div><!--[if mso]></td></tr></table><![endif]--></body></html>
